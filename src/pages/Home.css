@@ -1,0 +1,437 @@
+.home {
+    text-align: center;
+    padding: 40px;
+    background-color: #0c051a;
+    color:#c298d5;
+    min-height: 100vh;
+       position: relative;
+       display: flex;
+       flex-direction: column;
+         width: 82%;
+     float: right;
+  }
+
+
+
+
+.add-data-source{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #fbeee0;
+  margin-bottom: 5%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #fbeee0;
+  margin-bottom:40px;
+  margin-top: 10px;
+}
+
+
+.container {
+  text-align: left; /* Align the inner divs to the left */
+  margin-left: 25%;
+  margin-top: -2%;
+position: relative;
+}
+
+.inner-div {
+  display: inline-block;
+  vertical-align: top; /* Align the top edges of the divs */
+  margin-right: 10px; /* Add some spacing between the divs */
+  font-weight: 600;
+font-size: 20px;
+}
+
+
+
+
+
+.progress-message{
+  max-width:80%;
+  min-width: 20%;
+flex: 2;}
+.progress-icon{
+   /* margin: 50px -50px 50px 50px; */
+   margin-top: -25px;
+  margin-left: 10px; 
+/* flex:1; */
+}
+.progress{
+  /* position: relative; */
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+  .input_and_button{
+    display: flex;
+
+    flex-direction: column;
+  }
+  .checkbox-btn {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    width: 88%;
+    height: 450px;
+    margin-left: 5%;
+    margin-top: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffd2f2;
+  }
+  .checkbox-holder{
+    flex: 1;
+    padding: 10px;
+    /* border: 12px solid #ccc; */
+    box-shadow: 0 0 10px #ffd2f2;
+    border-right: none; 
+        width: 40px;
+height: 450px;
+flex-grow: 1;
+overflow-y: auto;
+  }
+  .checkbox-holder::-webkit-scrollbar {
+    height: 10px;
+  
+    width: 11px; /* Increase the scrollbar width */
+    background-color:  #0c051a; /* Set the background color of the scrollbar track */
+    border-radius: 5px;
+  
+    box-shadow: 0 0 10px #0e0a0d; /* Set the curvature of the scrollbar */}
+  .checkbox-holder::-webkit-scrollbar-track {
+    background-color:  #0c051a;
+    height: 100px;
+  
+  }
+  
+  .checkbox-holder::-webkit-scrollbar-thumb {
+    background-color: #373142; /* Set the color of the scrollbar thumb */
+    border-radius: 10px; 
+  }
+  
+  
+  
+  .button-container {
+      
+    flex: 2;
+    padding: 10px;
+    box-shadow: 0 0 10px #ffd2f2;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 10px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+  }
+  
+  button {
+    height: 40px;
+    width: 100px;
+  }
+  
+  
+
+  .input-container-home {
+    background-color: #0c051a;
+    padding: 40px;
+    /* position: relative; */
+    /* border: 10px solid #c11818; */
+    margin-top:2.5%;
+    /* flex: 1; */
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box-home {
+  flex: 1;
+margin-right: 40px;
+width: 70%;
+height: 20%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  box-shadow: 0 0 10px #ffd2f2;
+  overflow: auto;
+}
+.input-box-home:focus {
+outline:none;
+box-shadow: 0 0 10px #ffd2f2;
+}
+.send-button-home {
+width:250px;
+height:40px;
+background-color: #ffffff;
+border: 2px solid #422800;
+border-radius: 30px;
+box-shadow: #422800 4px 4px 0 0;
+color: #422800;
+cursor: pointer;
+display: inline-block;
+font-weight: 600;
+font-size: 18px;
+padding: 10 18px;
+line-height: 18px;
+text-align: center;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+   margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+
+    box-shadow: 0 0 10px #ffd2f2;
+  }
+
+.send-button-home:hover {
+/* background-color: #ebe1e9; */
+box-shadow: 0 0 15px #ffd2f2;
+
+}
+
+.send-button-home:active {
+box-shadow: #422800 2px 2px 0 0;
+transform: translate(2px, 2px);
+}
+
+
+.input-box-home::-webkit-scrollbar {
+    height: 10px;
+    
+    width: 11px; /* Increase the scrollbar width */
+    border-radius: 5px;
+    
+    box-shadow: 0 0 10px #0e0a0d; /* Set the curvature of the scrollbar */}
+    .input-box-home::-webkit-scrollbar-track {
+    height: 100px;
+    
+    }
+    
+    .input-box-home::-webkit-scrollbar-thumb {
+    background-color: #373142; /* Set the color of the scrollbar thumb */
+    border-radius: 10px; 
+    }
+
+
+
+
+
+    .lds-ripple {
+        display: inline-block;
+        position: relative;
+        width: 80px;
+        height: 80px;
+        /* margin-left: 8%; */
+        margin-top: -3%;
+
+
+      }
+      .lds-ripple div {
+        position: absolute;
+        margin-top: -23px;
+        border: 4px solid #fff;
+        opacity: 1;
+        border-radius: 50%;
+        animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+      }
+      .lds-ripple div:nth-child(2) {
+        animation-delay: -0.5s;
+      }
+      @keyframes lds-ripple {
+        0% {
+          top: 36px;
+          left: 36px;
+          width: 0;
+          height: 0;
+          opacity: 0;
+        }
+        4.9% {
+          top: 36px;
+          left: 36px;
+          width: 0;
+          height: 0;
+          opacity: 0;
+        }
+        5% {
+          top: 36px;
+          left: 36px;
+          width: 0;
+          height: 0;
+          opacity: 1;
+        }
+        100% {
+          top: 0px;
+          left: 0px;
+          width: 72px;
+          height: 72px;
+          opacity: 0;
+        }
+      }
+    
+.parahome{
+  border: #422800;
+  color: #fbeee0;
+  margin-top: 41%;
+
+}
+.checkbox-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #fbeee0;
+  margin-bottom:55px;
+  margin-top: -90px;
+
+
+}
+      /* Checkbox.css */
+
+      /* App.css */
+      .checkbox-list {
+        display: flex;
+        flex-direction: column;
+        /* border: 5px solid #2acd0d; */
+        margin-top: 60%;
+        /* position:fixed; */
+      }
+      
+      .checkbox-list .checkbox-wrapper {
+        display: flex;
+        align-items:flex-start; /* Align items vertically */
+        margin: 4px 0;
+        border: #422800;
+      }
+      .checkbox-wrapper{
+        width: 95%;
+        background-color: #b66714;
+        /* border: 5px solid #e48116; */
+        background-color: #ffffff;
+border: 2px solid #422800;
+border-radius: 10px;
+        margin: 5px 5px 5px 5px;
+        padding: 5px 5px 5px 5px;
+      }
+      .checkbox-list input[type="checkbox"] {
+        display: none;
+        visibility: hidden;
+      }
+      
+      .checkbox-list .cbx {
+        margin-left: 8px; /* Add space between checkbox and label */
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: pointer;
+      }
+      .checkbox-wrapper:hover {
+        background-color: #ebe1e9;        
+        }
+.checkbox-wrapper input[type="checkbox"] {
+  background-color: #ccc;
+  display: none;
+  visibility: hidden;
+}
+
+.checkbox-wrapper .cbx {
+  /* margin: auto; */
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+.checkbox-wrapper .cbx span {
+  display: inline-block;
+  vertical-align: middle;
+  color: #1c0739;
+  font-size:16px;
+  font-weight: 500;
+  transform: translate3d(0, 0, 0);
+}
+.checkbox-wrapper .cbx span:first-child {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  transform: scale(1);
+  vertical-align: middle;
+  border: 1px solid #9098A9;
+  transition: all 0.2s ease;
+}
+.checkbox-wrapper .cbx span:first-child svg {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 16px;
+  stroke-dashoffset: 16px;
+  transition: all 0.3s ease;
+  transition-delay: 0.1s;
+  transform: translate3d(0, 0, 0);
+}
+.checkbox-wrapper .cbx span:first-child:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #11101D;
+  display: block;
+  transform: scale(0);
+  opacity: 1;
+  border-radius: 50%;
+}
+.checkbox-wrapper .cbx span:last-child {
+  padding-left: 8px;
+}
+.checkbox-wrapper .cbx:hover span:first-child {
+  border-color: #11101D;
+}
+
+.checkbox-wrapper .inp-cbx:checked + .cbx span:first-child {
+  background: #11101D;
+  border-color: #11101D;
+  animation: wave-46 0.4s ease;
+}
+.checkbox-wrapper .inp-cbx:checked + .cbx span:first-child svg {
+  stroke-dashoffset: 0;
+}
+.checkbox-wrapper .inp-cbx:checked + .cbx span:first-child:before {
+  transform: scale(3.5);
+  opacity: 0;
+  transition: all 0.6s ease;
+}
+
+@keyframes wave-46 {
+  50% {
+    transform: scale(0.9);
+  }
+}
+
+/* Checkbox.css */
+
+.fl-wrap{
+  display: flex;
+  flex-direction: row;
+}
+/* Rest of the CSS styles as provided in the original question */
+.del{
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+  /* margin-right: -300px; */
+/* position: relative; */
+/* margin-right: -220px;} */

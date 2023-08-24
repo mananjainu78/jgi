@@ -1,0 +1,22 @@
+/* App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.sidebars {
+  flex: 1;
+  background-color: #0c051a;;
+  align-items: center;
+    width: 20%;
+
+}
+.chat {
+          margin: 0;
+             padding: 0;
+             overflow-x: hidden; /* Hide horizontal scrollbar */
+             display: flex;
+}
+
+
+
