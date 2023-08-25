@@ -95,16 +95,16 @@ const handleCheckboxChange = (value) => {
   }
 };
   useEffect(() => {
-    const newProcessSocket = new WebSocket('ws://localhost:8000/ws/process');
+    const newProcessSocket = new WebSocket('ws://backend-production-197d.up.railway.app/ws/process');
     newProcessSocket.onopen = () => {
       setProcessSocket(newProcessSocket);
     };
 
-    const newChatSocket = new WebSocket('ws://localhost:8000/ws/chat');
+    const newChatSocket = new WebSocket('ws://backend-production-197d.up.railway.app/ws/chat');
     newChatSocket.onopen = () => {
       setChatSocket(newChatSocket);
     };
-    const initiatesocket = new WebSocket("ws://localhost:8000/ws/initiate");
+    const initiatesocket = new WebSocket("ws://backend-production-197d.up.railway.app/ws/initiate");
 
     initiatesocket.onopen = () => {
       console.log("WebSocket connection opened");
